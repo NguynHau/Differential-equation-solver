@@ -77,11 +77,11 @@ to stop entering conditions.
 
 Example equation
 
-```
+
 \[
 5y' - \frac{1}{x^3}y = x^2
 \]
-```
+
 
 Initial condition
 
@@ -107,11 +107,11 @@ Solution + Direction Field
 
 Example equation
 
-```
+
 \[
 (x-1)y'''=y''
 \]
-```
+
 
 Initial conditions
 
