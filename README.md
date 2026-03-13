@@ -114,7 +114,7 @@ The solver can display
 
 Example output
 
-![Higher Order Solution](images/higher_order_ode/graph_of_the_particular_solutiont.png)
+![Higher Order Solution](images/higher_order_ode/graph_of_the_particular_solution.png)
 
 Higher-order equations currently support **solution curve plotting only**.
 
