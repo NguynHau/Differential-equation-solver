@@ -5,18 +5,21 @@ A small Python project that solves ordinary differential equations (ODE) using *
 ## Features
 
 - Solve differential equations symbolically
-- Support for higher order derivatives
-- Initial condition solving
+- Support for higher-order derivatives
+- Solve with initial conditions
 - Plot solution curves
-- Direction field visualization (for first order ODE)
-- Combined plot of solution + direction field
+- Direction field visualization (for first-order ODE)
+- Combined plot of solution and direction field
+
+---
 
 ## Supported Input Syntax
 
-Example:
+Example equation:
 
-y^(3)*(x-1)=y''
-
+```
+y^3*(x-1)=y^2
+```
 
 Derivative notation:
 
@@ -26,43 +29,65 @@ Derivative notation:
 | y^2 | second derivative |
 | y^3 | third derivative |
 
-Powers using `^` are automatically converted to Python `**`.
+Power operator `^` is automatically converted to Python `**`.
+
+---
 
 ## Example
 
-Solve
+Solve the differential equation
 
+```
 y^3*(x-1) = y^2
+```
 
 Initial conditions
 
-y(2)=2
-y'(2)=1
-y''(2)=1
+```
+y(2) = 2
+y'(2) = 1
+y''(2) = 1
+```
 
-Input format in program
+Input format in the program
 
+```
 0,2,2
 1,2,1
 2,2,1
+```
 
+Then enter
+
+```
+x
+```
+
+to finish entering conditions.
+
+---
 
 ## Installation
 
 Clone the repository
 
+```
 git clone https://github.com/yourusername/differential-equation-solver.git
-
+```
 
 Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
+Run the program
 
-Run
-
+```
 python src/solver.py
+```
 
+---
 
 ## Technologies
 
@@ -71,12 +96,25 @@ python src/solver.py
 - NumPy
 - Matplotlib
 
+---
+
+## Project Structure
+
+```
+differential-equation-solver
+│
+├── src
+│   └── solver.py
+│
+├── notebook
+│   └── ode_solver.ipynb
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
 ## Author
 
-Student project for applied mathematics.
-
-
-
-
-
-
+Student project for **Applied Mathematics**.
