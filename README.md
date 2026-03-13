@@ -75,7 +75,9 @@ to stop entering conditions.
 Equation
 
 ```
-y^3*(x-1) = y^2
+\[
+(x-1)y''' = y''
+\]
 ```
 
 Initial conditions
@@ -97,7 +99,9 @@ The program will compute the symbolic solution and plot the result.
 Example equation
 
 ```
-5*y' - 1/(x^3)*y = x^2
+\[
+5y' - \frac{1}{x^3}y = x^2
+\]
 ```
 
 Initial condition
