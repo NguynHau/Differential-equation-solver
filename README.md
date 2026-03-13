@@ -100,7 +100,7 @@ Example outputs
 
 ![Graph_of_the_particular_solution](images/first_order_ode/graph_of_the_particular_solution.png)
 
-![Solution + Direction Field](images/first_order_ode_solver/solution+direction_field.png)
+![Solution + Direction Field](images/first_order_ode/solution+direction_field.png)
 
 The solver can display
 
