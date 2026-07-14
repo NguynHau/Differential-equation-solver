@@ -1,0 +1,8 @@
+{
+  "name": "Differential Equation Solver",
+  "description": "An academic web application for solving and visualizing ordinary differential equations (ODEs), plotting direction fields, and analyzing mathematical steps with a professional mathematical software aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
