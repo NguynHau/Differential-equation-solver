@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+import fs from 'fs';
+import { ODE_PRESETS } from './mathSolver.js';
+
+let html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,6 +11,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .scrollbar-thin::-webkit-scrollbar { width: 4px; height: 4px; }
+    .scrollbar-thin::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; }
+    .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
+    [data-tab-content] { display: none; }
+    [data-tab-content].active { display: block; }
+  </style>
 </head>
 <body class="bg-[#F5F7FA] text-slate-800 flex h-screen overflow-hidden" id="app-root-layout">
   
@@ -408,4 +418,7 @@
 
   <script type="module" src="app.js"></script>
 </body>
-</html>
+</html>`;
+
+fs.writeFileSync('index.html', html);
+console.log('HTML written.');
